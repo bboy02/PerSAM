@@ -1,5 +1,5 @@
-SAM (Segment Anything Model) Implementation for One-Shot Detection.
 This project is an implementation of 'Personalize Segment Anything Model with One Shot'(https://arxiv.org/pdf/2305.03048).
+
 This repository provides an implementation of the Segment Anything Model (SAM) for one-shot detection using Vision Transformers (ViT). The model leverages cross-attention layers and target-semantic prompting to perform accurate segmentation of objects in a given image. It utilizes a reference image and its mask for target-guided attention, and a test image is processed with the model to predict the segmentation mask.
 
 The key features of the code include:
